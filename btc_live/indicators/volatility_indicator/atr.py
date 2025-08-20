@@ -1,4 +1,4 @@
-from .base import Indicator
+from .btc_live.indicators.ichimoky_indicator.base import Indicator
 import pandas as pd
 
 class ATR(Indicator):
